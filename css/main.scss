@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'mixins';
+@import 'card';
+
+body {
+    @include flexible;
+    min-height: 100vh;
+    font-family: $fonts;
+}
+

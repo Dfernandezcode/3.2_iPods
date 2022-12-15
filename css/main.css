@@ -1,0 +1,80 @@
+/*Color System*/
+/*Fonts*/
+/*Margin, Padding and BorderRadius*/
+/*Color System*/
+/*Fonts*/
+/*Margin, Padding and BorderRadius*/
+.card {
+	min-height: 750px;
+	width: 500px;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+	background-color: #000;
+	color: #fff;
+	/*
+
+
+
+  */
+}
+.card__header {
+	align-self: center;
+	margin: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.card__img {
+	width: 200px;
+	align-self: center;
+	margin-bottom: 50px;
+}
+.card__subtitle {
+	margin-bottom: 5px;
+}
+.card__text {
+	font-size: 14px;
+	color: #d3d3d3;
+	font-weight: 600;
+}
+.card__button {
+	align-self: center;
+	width: 150px;
+	height: 50px;
+	font-weight: 600;
+	border: solid 1px #fff;
+	background-color: #000;
+	color: #fff;
+}
+.card__button:hover {
+	cursor: pointer;
+	border: solid 1px #000;
+	background: #fff;
+	color: #000;
+}
+.card--reverse {
+	background-color: #fff;
+	color: #000;
+}
+.card--reverse .card__button {
+	border: solid 1px #000;
+	background-color: #fff;
+	color: #000;
+}
+.card--reverse .card__button:hover {
+	border: solid 1px #fff;
+	background: #000;
+	color: #fff;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: Monospace, Arial, sans-serif;
+} /*# sourceMappingURL=main.css.map */

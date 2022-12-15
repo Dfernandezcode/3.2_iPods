@@ -1,0 +1,80 @@
+@import 'variables';
+
+.card {
+        min-height: 750px;
+        width: 500px;
+        border-radius: $spacing;
+        margin: $spacing;
+        padding: 0 $spacing;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+        background-color: $color-secondary;
+        color: $color-primary;
+
+            &__header {
+                align-self: center;
+                margin: $spacing; 
+                font-size: 30px;
+                font-weight: bold;
+            }
+        
+            &__img {
+                width: 200px;
+                align-self: center;
+                margin-bottom: 50px;
+            }
+        
+            &__subtitle {
+                margin-bottom: 5px;
+            }
+        
+            &__text {
+                font-size: 14px;
+                color: $color-tertiary;
+                font-weight: 600;
+            }
+        
+            &__button {
+                align-self: center;
+                width: 150px;
+                height: 50px;
+                font-weight: 600;
+                border: $border $color-primary;
+                background-color: $color-secondary;
+                color: $color-primary;
+
+                &:hover {
+                        cursor: pointer;
+                        border: $border $color-secondary;
+                        background: $color-primary;
+                        color: $color-secondary;
+                    }
+
+            }
+        
+            &--reverse {
+                background-color: $color-primary;
+                color: $color-secondary;
+
+                .card__button {
+                    border: $border $color-secondary;
+                    background-color: $color-primary;
+                    color: $color-secondary;
+                
+
+                    &:hover {
+                        border: $border $color-primary;
+                        background: $color-secondary;
+                        color: $color-primary;
+                    }
+                }
+            }
+
+            /*
+    
+        
+        
+            */
+}
